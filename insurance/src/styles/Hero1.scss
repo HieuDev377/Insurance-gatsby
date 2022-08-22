@@ -1,0 +1,136 @@
+.hero-section {
+  min-height: 37.5rem;
+  position: relative;
+
+  .bg-image {    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('../images/HeroBg1.png');
+    background-repeat: no-repeat;
+    padding: 1rem 0;        
+    background-position: bottom;
+    background-size: cover;
+  }
+
+
+  .section-container {
+    max-width: 67.875rem;
+    margin: 0 auto;
+
+    .text-section {
+      width: 50%;
+      padding: 7.53125rem 0;
+
+      h1 {
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 3.5625rem;
+        color: #FFFFFF;
+        max-width: 29.6875rem;
+
+        span {
+          background-image: url('../images/bottom-img.png');
+          background-repeat: no-repeat;
+          padding: 1rem 0;        
+          background-position: bottom;
+          background-size: contain;
+        }
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        color: #F1F1F1;
+      }
+
+      .quote-form {
+        p {
+          font-weight: 400;
+          font-size: 1rem;
+          line-height: 1.1875rem;        
+          color: #F1F1F1;
+        }
+
+        &-content {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          .main-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: calc(100% - 8.75rem);
+            padding: 0 1.5rem;
+            background-color: #fff;
+            height: 4.1875rem;
+            border-radius: 5px 0 0 5px;
+
+            .form-section {
+              display: flex;
+              flex-direction: column;
+
+              label {
+                font-weight: 400;
+                font-size: 0.625rem;
+                line-height: 0.75rem;
+                color: #5C5C5C;
+              }
+
+              input {
+                font-weight: 500;
+                font-size: 1rem;
+                line-height: 1.1875rem;
+                color: #5C5C5C;
+                border: none;
+                outline: none;
+
+                &::placeholder {
+                  color: #D7D7D7;
+                }
+              }
+            }
+
+            .divider {              
+              padding: 0.5rem 0 0.5rem 1.5rem;
+              font-weight: 400;
+              font-size: 1rem;
+              line-height: 1.1875rem;
+              color: #181818;
+              border-left: 1px solid #D7D7D7;
+            }
+          }
+
+          button {
+            min-width: 8.75rem;
+            padding: 1.5rem;
+            border: none;
+            font-weight: 600;
+            font-size: 1rem;
+            line-height: 1.1875rem;
+            color: #FFFFFF;
+            background: #F7941D;
+            border-radius: 0 5px 5px 0;
+          }
+        }
+      }
+    }
+
+    .image-section {
+      position: absolute;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 42%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

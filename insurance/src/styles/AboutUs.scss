@@ -1,0 +1,12 @@
+.about-us {
+  background-image: url('../images/AboutUs.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 37.5rem;
+
+  .section-container {
+    max-width: 67.875rem;
+    margin: 0 auto;
+    display: flex;
+  }
+}
