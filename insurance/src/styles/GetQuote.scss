@@ -1,6 +1,33 @@
 .get-quote {
   padding: 6.4375rem 1rem;
 
+  &.bg-blue {
+    background: #009444;
+    h1, h3, p, a {
+      color: white;
+    }
+
+    .left-section {
+      h3, p {
+        span {
+          color: #F7941D !important;
+        }
+      }
+    }
+  }
+
+  h1 {
+    color: #5C5C5C;
+  }
+
+  h3, p {
+    color: #181818;
+  }
+
+  a {
+    color: #F7941D;
+  }
+
   .section-container {
     max-width: 67.875rem;
     margin: 0 auto;
@@ -14,15 +41,13 @@
         font-weight: 500;
         font-size: 20px;
         line-height: 24px;
-        letter-spacing: 0.2em;
-        color: #5C5C5C;
+        letter-spacing: 0.2em;        
       }
 
       h3 {
         font-weight: 700;
         font-size: 2.25rem;
         line-height: 2.6875rem;
-        color: #181818;
 
         span {
           color: #009444;
@@ -33,7 +58,6 @@
         font-weight: 400;
         font-size: 1.25rem;
         line-height: 1.5rem;
-        color: #181818;
 
         span {
           color: #009444;
@@ -43,8 +67,7 @@
       a {
         font-weight: 500;
         font-size: 1rem;
-        line-height: 1.1875rem;
-        color: #F7941D;
+        line-height: 1.1875rem;        
         text-decoration: none;
 
         span {

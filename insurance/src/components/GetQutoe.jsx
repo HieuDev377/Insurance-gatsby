@@ -5,7 +5,7 @@ import "../styles/GetQuote.scss";
 
 const GetQuote = () => {
   return (
-    <section className="get-quote">
+    <section className="get-quote bg-blue">
       <div className="section-container">
         <div className="left-section">
           <h1>GET A QUOTE</h1>
