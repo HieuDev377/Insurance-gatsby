@@ -1,9 +1,6 @@
 import React from "react";
-import "../styles/Hero1.scss";
-import HeroBackgroundImage from "../images/HeroBg1.png";
-import HeroRightImg from "../images/HeroRight.png";
 
-const HeroSection = () => {
+const Hero = () => {
   return (
     <section className="hero-section">
       <div className="bg-image"></div>     
@@ -28,11 +25,11 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="image-section">
-          <img src={HeroRightImg} alt="" />
+          <img src="http://tyndall.insure/wp-content/uploads/2022/08/HeroRight.png" alt="" />
         </div>
       </div>
     </section>
   );
 };
 
-export default HeroSection;
+export default Hero;

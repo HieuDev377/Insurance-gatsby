@@ -1,0 +1,270 @@
+.why-coverage {
+  padding: 6.4375rem 1rem;
+
+  .section-container {
+    max-width: 67.875rem;
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    gap: 10%;
+
+    .left-section {
+      width: 50%;
+      
+      h4 {
+        font-weight: 500;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        letter-spacing: 0.2em;
+        color: #5C5C5C;
+        margin: 0 0 0.75rem;
+      }
+
+      h1 {
+        font-weight: 700;
+        font-size: 2.25rem;
+        line-height: 2.8125rem;
+        color: #181818;
+        margin: 0 0 2.25rem;
+
+        span {
+          color: #F7941D;
+        }
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        color: #181818;
+        margin: 0;
+      }
+    }
+
+    .right-section {
+      width: 40%;
+
+      ul {
+        padding: 0;
+        list-style: none;        
+
+        li {
+          display: flex;
+          align-items: center;
+          margin-bottom: 1.5rem;
+
+          img {
+            margin-right: 1rem;
+          }
+
+          span {
+            font-weight: 500;
+            font-size: 1rem;
+            line-height: 1.1875rem;
+            color: #181818;
+          }
+        }
+      }
+    }
+  }
+}
+
+.our-policy {
+  min-height: 34.375rem;
+  position: relative;
+
+  .green-bg {
+    position: absolute;
+    height: 100%;
+    width: 35%;
+    min-height: 34.375rem;
+    background-image: url('http://tyndall.insure/wp-content/uploads/2022/08/HeroBg1.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    z-index: -1;
+
+    .green-bg-content {
+      position: relative;
+      height: 100%;
+      width: 100%;
+      
+    }
+
+    .yellow-dots {
+      position: absolute;
+      bottom: -2.9375rem;      
+      left: 3.3125rem;
+    }
+  }
+
+  .section-container {
+    max-width: 67.875rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    .left-section {
+      width: 40%;
+
+      .our-aim {
+        background: #F2FAF6;
+        box-shadow: 0px 1px 10px rgba(0, 130, 60, 0.15);
+        border-radius: 5px;
+        padding: 1rem 1.5rem;
+        max-width: 16.875rem;
+        position: relative;
+        box-sizing: border-box;
+        float: right;
+        margin-top: 15rem;
+
+        .yellow-quote {
+          position: absolute;
+          width: 2rem;
+          height: 2rem;
+          border-radius: 50%;
+          background-color: #F7941D;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          top: -1rem;
+          left: -1rem;
+        }
+
+        .ceo {
+          font-weight: 500;
+          font-size: 1rem;
+          line-height: 1.1875rem;
+          display: flex;
+          align-items: center;
+          color: #5C5C5C;
+
+          span {
+            color: #F7941D;
+          }
+        }
+
+        p:not(.ceo) {
+          font-weight: 400;
+          font-size: 1.25rem;
+          line-height: 1.5rem;
+          display: flex;
+          align-items: center;
+          color: #181818;
+        }
+      }
+    }
+
+    .right-section {
+      width: 50%;
+      padding-top: 5.8125rem;
+
+      h4 {
+        font-weight: 500;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        letter-spacing: 0.2em;
+        color: #5C5C5C;
+        margin: 0 0 0.75rem;
+      }
+
+      h1 {
+        font-weight: 700;
+        font-size: 2.25rem;
+        line-height: 2.6875rem;
+        color: #181818;
+        margin: 0 0 2.25rem;
+
+        span {
+          color: #009444;
+        }
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        color: #181818;
+        margin: 0 0 2.25rem;
+      }
+
+      ul {
+        padding: 0;
+        list-style: none;        
+
+        li {
+          display: flex;
+          align-items: center;
+          margin-bottom: 1.5rem;
+
+          img {
+            margin-right: 1rem;
+          }
+
+          span {
+            font-weight: 500;
+            font-size: 1rem;
+            line-height: 1.1875rem;
+            color: #181818;
+          }
+        }
+      }
+    }
+  }
+}
+
+.satisfaction-summary {
+  padding: 6rem 1rem 3rem;
+
+  .section-container {
+    max-width: 67.875rem;
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    gap: 10%;
+
+    .left-section {
+      width: 40%;
+
+      h3 {
+        font-weight: 600;
+        font-size: 2.25rem;
+        line-height: 2.6875rem;
+        color: #181818;
+        max-width: 18.75rem;
+        margin: 0;
+
+        span {
+          color: #009444;
+        }
+      }
+    }
+
+    .right-section {
+      display: flex;
+      align-items: center;
+      gap: 10%;
+      width: 50%;
+
+      .summary-item {
+        width: 45%;
+        text-align: center;
+
+        h3 {
+          font-weight: 600;
+          font-size: 2.5rem;
+          line-height: 3rem;
+          color: #F7941D;
+          margin: 0;
+        }
+
+        p {
+          font-weight: 500;
+          font-size: 1rem;
+          line-height: 1.1875rem;          
+          color: #5C5C5C;
+          margin: 0;
+        }
+      }
+    }
+  }
+}

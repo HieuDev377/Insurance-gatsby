@@ -1,11 +1,11 @@
 import React from "react";
-import LinkIcon from "../images/yellow-link.svg";
-import QuoteBg from "../images/GetQuoteBG.svg";
-import "../styles/GetQuote.scss";
 
-const GetQuote = () => {
+const yellowIcon = "http://tyndall.insure/wp-content/uploads/2022/08/yellow-link.svg";
+const whiteIcon = "http://tyndall.insure/wp-content/uploads/2022/08/WhiteLink.svg";
+
+const GetQuote = ({ bgBlue }) => {
   return (
-    <section className="get-quote bg-blue">
+    <section className={`get-quote ${bgBlue ? 'bg-blue' : ''}`}>
       <div className="section-container">
         <div className="left-section">
           <h1>GET A QUOTE</h1>
@@ -13,12 +13,12 @@ const GetQuote = () => {
           <p>Things go wrong. You have questions. <span>We understand.</span> So we have people who have the <span>experience</span> in trade credit to</p>
           <a href="">
             <span>Contact us for more info</span>
-            <img src={LinkIcon} alt="" />
+            <img src={bgBlue ? yellowIcon : whiteIcon} alt="" />
           </a>
         </div>
         <div className="right-section">
           <div className="bg-image">
-            <img src={QuoteBg} alt="" />
+            <img src="http://tyndall.insure/wp-content/uploads/2022/08/GetQuoteBg.svg" alt="" />
           </div>      
           <div className="quote-section">
             <h3>Get a Quote</h3>

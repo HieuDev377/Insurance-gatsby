@@ -1,6 +1,4 @@
 import React from "react";
-import "../styles/CTA.scss";
-import BottomImg from "../images/bottom-img.png";
 
 const CTASection = () => {
   return (
@@ -8,7 +6,7 @@ const CTASection = () => {
       <div className="main-content">
         <div className="main-title">
           <h1>Ready to insure? It’s just a matter of one click</h1>
-          <img src={BottomImg} alt="" />
+          <img src="http://tyndall.insure/wp-content/uploads/2022/08/bottom-img.png" alt="" />
         </div>
         <p>Try it risk free - we don’t charge cancellation fees.</p>
         <div className="actions">

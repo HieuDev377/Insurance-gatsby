@@ -1,10 +1,4 @@
 import React from "react";
-import Logo from "../images/footer/footer-logo.png";
-import PhoneIcon from "../images/footer/phone.png";
-import EmailIcon from "../images/footer/email.png";
-import ArrowIcon from "../images/footer/arrow.png";
-
-import "../styles/Footer.scss";
 
 const Footer = () => {
   return (
@@ -12,17 +6,17 @@ const Footer = () => {
       <div className="section-container">
         <div className="footer-group-item large">
           <div className="logo">
-            <img src={Logo} alt="" />
+            <img src="http://tyndall.insure/wp-content/uploads/2022/08/footer-logo.png" alt="" />
           </div>
           <div className="link-item">
             <a href="">
-              <img src={EmailIcon} alt="" />
+              <img src="http://tyndall.insure/wp-content/uploads/2022/08/email.png" alt="" />
               <span>assitance@tyndall.insurance</span>  
             </a>
           </div>
           <div className="link-item">
             <a href="">
-              <img src={PhoneIcon} alt="" />
+              <img src="http://tyndall.insure/wp-content/uploads/2022/08/phone.png" alt="" />
               <span>1300 xxx xxx</span>  
             </a>
           </div>
@@ -76,21 +70,21 @@ const Footer = () => {
           <div className="form-section">
             <input type="text" placeholder="Input your Email" />
             <div>
-              <img src={ArrowIcon} alt="" />
+              <img src="http://tyndall.insure/wp-content/uploads/2022/08/arrow.png" alt="" />
             </div>
           </div>
           <div className="social-links">
             <a href="">
-              <img src={EmailIcon} alt="" />
+              <img src="http://tyndall.insure/wp-content/uploads/2022/08/email.png" alt="" />
             </a>
             <a href="">
-              <img src={PhoneIcon} alt="" />
+              <img src="http://tyndall.insure/wp-content/uploads/2022/08/phone.png" alt="" />
             </a>
             <a href="">
-              <img src={PhoneIcon} alt="" />
+              <img src="http://tyndall.insure/wp-content/uploads/2022/08/phone.png" alt="" />
             </a>
             <a href="">
-              <img src={PhoneIcon} alt="" />
+              <img src="http://tyndall.insure/wp-content/uploads/2022/08/phone.png" alt="" />
             </a>
           </div>
         </div>

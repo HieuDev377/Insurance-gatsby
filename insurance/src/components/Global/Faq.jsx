@@ -1,13 +1,23 @@
 import React from "react";
-import "../styles/Faq.scss";
 
-const FaqSection = () => {
+const Faq = ({ hasSearch }) => {
   return (
     <section className="faq-section">
       <div className="section-container">
         <div className="section-title">
           <h1>Get your <span>Answer</span></h1>
         </div>
+        {hasSearch && (
+          <div className="search-input">
+            <div className="input-section">
+              <div className="input-section-content">
+                <label htmlFor="faq-search">Type your questions</label>
+                <input type="text" id="faq-search" placeholder="Search" />
+              </div>
+            </div>
+            <button>Find the Answer</button>
+          </div>
+        )}        
         <div className="section-content">
           <details className="faq-item">
             <summary>
@@ -69,4 +79,4 @@ const FaqSection = () => {
   );
 };
 
-export default FaqSection;
+export default Faq;
