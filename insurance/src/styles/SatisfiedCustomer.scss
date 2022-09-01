@@ -1,5 +1,5 @@
 .about-satisfied {
-  padding: 6.4375rem 1rem;
+  padding: 6.4375rem 2rem;
 
   .section-container {
     max-width: 67.875rem;
@@ -30,6 +30,12 @@
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 6rem;
+
+      @media screen and (max-width: 900px) {
+        max-width: 30rem;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+      }
 
       .customer-item {
         background: #F2FAF6;
