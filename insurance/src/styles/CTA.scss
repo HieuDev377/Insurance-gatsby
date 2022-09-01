@@ -14,6 +14,12 @@
     top: 0;
     box-sizing: border-box;
 
+    @media screen and (max-width: 900px) {
+      position: relative;
+      width: 100%;
+      left: 0;
+    }
+
     .main-title {
       h1 {
         font-weight: 600;
@@ -23,6 +29,13 @@
         max-width: 41.9375rem;
         margin: 0 auto;
       }
+
+      @media screen and (max-width: 500px) {
+        img {
+          width: 100%;
+        }
+      }
+
     }
 
     p {

@@ -4,10 +4,10 @@ const ContactForm = () => {
   return (
     <section className="contact-form">      
       <div className="green-bg">
-          <div className="green-bg-content">
-            <img src="http://tyndall.insure/wp-content/uploads/2022/08/dot.png" alt="" className="yellow-dots" />
-          </div>          
-        </div>
+        <div className="green-bg-content">
+          <img src="http://tyndall.insure/wp-content/uploads/2022/08/dot.png" alt="" className="yellow-dots" />
+        </div>          
+      </div>
       <div className="section-container">
         <div className="text-section">
           <h3>Don’t <span>hesitate</span> to drop a line <span>to us</span></h3>

@@ -2,6 +2,10 @@
   min-height: 37.5rem;
   position: relative;
 
+  @media screen and (max-width: 900px) {
+    background-color: #009444;
+  }
+
   .bg-image {    
     position: absolute;
     top: 0;
@@ -14,16 +18,27 @@
     padding: 1rem 0;        
     background-position: bottom;
     background-size: cover;
+    border-bottom-right-radius: 10rem;
+
+    @media screen and (max-width: 900px) {
+      display: none;
+    }
   }
 
 
   .section-container {
     max-width: 67.875rem;
     margin: 0 auto;
+    padding: 0 1rem;
 
     .text-section {
       width: 50%;
       padding: 7.53125rem 0;
+
+      @media screen and (max-width: 900px) {
+        width: 100%;
+        text-align: center;
+      }
 
       h1 {
         font-weight: 700;
@@ -32,12 +47,20 @@
         color: #FFFFFF;
         max-width: 29.6875rem;
 
+        @media screen and (max-width: 900px) {
+          margin: 1rem auto;
+        }        
+
         span {
           background-image: url('../images/bottom-img.png');
           background-repeat: no-repeat;
           padding: 1rem 0;        
           background-position: bottom;
           background-size: contain;
+
+          @media screen and (max-width: 500px) {
+            background-image: none;
+          }
         }
       }
 
@@ -49,6 +72,10 @@
       }
 
       .quote-form {
+        @media screen and (max-width: 900px) {
+          box-sizing: border-box;
+        }
+
         p {
           font-weight: 400;
           font-size: 1rem;
@@ -61,6 +88,19 @@
           align-items: center;
           justify-content: space-between;
 
+          @media screen and (max-width: 900px) {
+            margin-top: 3rem;
+          }
+
+          @media screen and (max-width: 900px) and (min-width: 501px) {
+            max-width: 40rem;
+            margin: 3rem auto 0;
+          }
+
+          @media screen and (max-width: 500px) {
+            flex-direction: column;
+          }          
+
           .main-content {
             display: flex;
             align-items: center;
@@ -71,15 +111,24 @@
             height: 4.1875rem;
             border-radius: 5px 0 0 5px;
 
+            @media screen and (max-width: 500px) {
+              border-radius: 5px;
+              margin-bottom: 1.5rem;
+              width: 100%;
+              box-sizing: border-box;
+            }
+
             .form-section {
               display: flex;
               flex-direction: column;
+              width: 100%;
 
               label {
                 font-weight: 400;
                 font-size: 0.625rem;
                 line-height: 0.75rem;
                 color: #5C5C5C;
+                text-align: left;
               }
 
               input {
@@ -103,6 +152,10 @@
               line-height: 1.1875rem;
               color: #181818;
               border-left: 1px solid #D7D7D7;
+
+              @media screen and (max-width: 500px) {
+                display: none;
+              }
             }
           }
 
@@ -116,6 +169,10 @@
             color: #FFFFFF;
             background: #F7941D;
             border-radius: 0 5px 5px 0;
+
+            @media screen and (max-width: 500px) {
+              border-radius: 5px;              
+            }
           }
         }
       }
@@ -127,6 +184,10 @@
       top: 0;
       right: 0;
       width: 42%;
+
+      @media screen and (max-width: 900px) {
+        display: none;
+      }
 
       img {
         width: 100%;

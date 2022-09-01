@@ -2,18 +2,35 @@
   min-height: 37.5rem;
   position: relative;
 
-  .background-image {
+  @media screen and (max-width: 900px) {
+    text-align: center;
+  }
+
+  .green-bg {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 35%;
     height: 100%;
+    width: 35%;
+    min-height: 34.375rem;
+    background-image: url('http://tyndall.insure/wp-content/uploads/2022/08/HeroBg1.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: -1;
 
-    img {
-      width: 100%;
+    @media screen and (max-width: 900px) {
+      display: none;      
+    }
+
+    .green-bg-content {
+      position: relative;
       height: 100%;
-      object-fit: cover;
+      width: 100%;
+      
+      img {
+        position: absolute;
+        top: 1rem;
+        right: -5rem;
+      }
     }
   }
 
@@ -22,10 +39,19 @@
     margin: 0 auto;
     display: flex;
     gap: 4.75rem;
-    padding: 5.125rem 0;
+    padding: 5.125rem 1rem;
+
+    @media screen and (max-width: 900px) {
+      display: block;
+      padding: 2rem;
+    }
 
     .left-section {
       width: 35%;
+
+      @media screen and (max-width: 900px) {
+        width: 100%;
+      }
 
       h1 {
         font-weight: 700;
@@ -36,6 +62,11 @@
 
         span {
           color: #F7941D;
+        }
+
+        @media screen and (max-width: 900px) {
+          max-width: none;
+          color: #009444;
         }
       }
 
@@ -48,6 +79,11 @@
         position: relative;
         box-sizing: border-box;
         float: right;
+
+        @media screen and (max-width: 900px) {
+          float: none;
+          margin: 1.5rem auto;
+        }
 
         .yellow-quote {
           position: absolute;
@@ -111,6 +147,10 @@
         line-height: 1.5rem;
         color: #181818;
         max-width: 29.6875rem;
+
+        @media screen and (max-width: 900px) {
+          margin: 1.5rem auto;
+        }
       }
 
       button {

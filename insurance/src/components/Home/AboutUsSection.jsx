@@ -1,20 +1,19 @@
 import React from "react";
-import "../styles/AboutUs.scss";
-import BackgroundImg from "../images/AboutUs.png";
-import QuoteIcon from "../images/quotes.svg";
 
 const AboutUsSection = () => {
   return (
     <section className="about-us">
-      <div className="background-image">
-        <img src={BackgroundImg} alt="" />
+      <div className="green-bg">
+        <div className="green-bg-content">
+          <img src="http://tyndall.insure/wp-content/uploads/2022/08/dot.png" alt="" className="yellow-dots" />
+        </div>          
       </div>
       <div className="section-container">
         <div className="left-section">
           <h1>Tired of <span>no cover </span>or <span>delays?</span></h1>
           <div className="our-aim">
             <div className="yellow-quote">
-              <img src={QuoteIcon} alt="" />
+              <img src="http://tyndall.insure/wp-content/uploads/2022/08/quotes.svg" alt="" />
             </div>
             <p>We aim to answer any question within 24 hours</p>
             <p className="ceo"><span>Leo Tyndall, &nbsp; </span>CEO</p>

@@ -25,7 +25,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="image-section">
-          <img src="http://tyndall.insure/wp-content/uploads/2022/08/HeroRight.png" alt="" />
+          <img src="http://tyndall.insure/wp-content/uploads/2022/08/HeroRightImg.svg" alt="" />
         </div>
       </div>
     </section>
