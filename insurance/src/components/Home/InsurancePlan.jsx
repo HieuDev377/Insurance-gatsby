@@ -1,19 +1,13 @@
 import React from "react";
-import TextBottomImg from "../images/bottom-img.png";
-import "../styles/InsurancePlan.scss";
-
-import IconImg1 from "../images/insurance-plan/Icon1.png";
-import IconImg2 from "../images/insurance-plan/Icon2.png";
-import IconImg3 from "../images/insurance-plan/Icon3.png";
-
-import ActiveArrowIcon from "../images/Link-active.png";
-import ArrowIcon from "../images/Link.png";
 
 const data = [
-  { id: 1, icon: IconImg1, title: 'Whole Turnover' },
-  { id: 2, icon: IconImg2, title: 'Single Exposure' },
-  { id: 3, icon: IconImg3, title: 'Top up Insurance' }
+  { id: 1, icon: 'http://tyndall.insure/wp-content/uploads/2022/08/Plan-Icon1.png', title: 'Whole Turnover' },
+  { id: 2, icon: 'http://tyndall.insure/wp-content/uploads/2022/08/Plan-Icon2.png', title: 'Single Exposure' },
+  { id: 3, icon: 'http://tyndall.insure/wp-content/uploads/2022/08/Plan-Icon3.png', title: 'Top up Insurance' }
 ];
+
+const activeArrowIcon = "http://tyndall.insure/wp-content/uploads/2022/08/Link-active.png";
+const arrowIcon = "http://tyndall.insure/wp-content/uploads/2022/08/Link.png";
 
 const InsurancePlan = () => {
   return (
@@ -21,7 +15,7 @@ const InsurancePlan = () => {
       <div className="section-container">
         <h1>
           Insurance plan <span>we provide</span>
-          <img src={TextBottomImg} alt="" />
+          <img src="http://tyndall.insure/wp-content/uploads/2022/08/bottom-img.png" alt="" />
         </h1>
         <div className="main-content">
           {data.map((item) => (
@@ -31,7 +25,7 @@ const InsurancePlan = () => {
               </div>
               <h3>{item.title}</h3>
               <div>
-                <img src={item.id % 2 ? ArrowIcon : ActiveArrowIcon} alt="" />
+                <img src={item.id % 2 ? arrowIcon : activeArrowIcon} alt="" />
               </div>
             </div>
           ))}

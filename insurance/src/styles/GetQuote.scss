@@ -34,8 +34,19 @@
     display: flex;
     gap: 4.75rem;
 
+    @media screen and (max-width: 900px) {
+      text-align: center;
+      display: block;
+    }
+
     .left-section {
-      width: 100%;
+      width: 70%;
+
+      @media screen and (max-width: 900px) {
+        max-width: 40rem;
+        margin: 2rem auto;
+        width: 100%;
+      }
 
       h1 {
         font-weight: 500;
@@ -80,11 +91,21 @@
       width: 50%;
       position: relative;
 
+      @media screen and (max-width: 900px) {
+        width: 100%;
+        max-width: 40rem;
+        margin: 0 auto;
+      }
+
       .bg-image {
         position: absolute;
         z-index: -1;
         top: -3.125rem;
         left: -3.125rem;
+
+        @media screen and (max-width: 900px) {
+          display: none;
+        }
       }
 
       .quote-section {
