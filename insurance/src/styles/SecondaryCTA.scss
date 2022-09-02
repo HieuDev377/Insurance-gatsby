@@ -18,6 +18,17 @@
         align-items: center;
         justify-content: space-between;
 
+        @media (max-width: 900px) {
+            position: relative;
+            width: 100%;
+            box-sizing: border-box;
+            left: 0;
+        }
+  
+        @media (max-width: 600px) {
+            flex-direction: column;
+        }
+
         h3 {
             font-weight: 500;
             font-size: 2rem;
@@ -35,6 +46,11 @@
             line-height: 1.375rem;            
             color: #F1F1F1;
             text-decoration: none;
+            display: block;
+
+            @media (max-width: 600px) {
+                margin-top: 2rem;
+            }
         }
     }
 }
