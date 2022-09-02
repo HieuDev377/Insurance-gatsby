@@ -139,6 +139,9 @@
       @media (max-width: 900px) {
         width: 100%;
         padding: 0 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
 
       .our-aim {
@@ -200,6 +203,7 @@
 
       @media (max-width: 900px) {
         width: 100%;
+        text-align: center;
       }
 
       h4 {
@@ -231,27 +235,35 @@
         margin: 0 0 2.25rem;
       }
 
-      ul {
-        padding: 0;
-        list-style: none;        
-
-        li {
+      .policy-options {
+        @media (max-width: 900px) {
           display: flex;
           align-items: center;
-          margin-bottom: 1.5rem;
+          justify-content: center;
+        }
 
-          img {
-            margin-right: 1rem;
-          }
-
-          span {
-            font-weight: 500;
-            font-size: 1rem;
-            line-height: 1.1875rem;
-            color: #181818;
+        ul {
+          padding: 0;
+          list-style: none;        
+  
+          li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.5rem;
+  
+            img {
+              margin-right: 1rem;
+            }
+  
+            span {
+              font-weight: 500;
+              font-size: 1rem;
+              line-height: 1.1875rem;
+              color: #181818;
+            }
           }
         }
-      }
+      }      
     }
   }
 }
@@ -266,8 +278,16 @@
     width: 100%;
     gap: 10%;
 
+    @media (max-width: 900px) {
+      flex-direction: column;
+    }
+
     .left-section {
       width: 40%;
+
+      @media (max-width: 900px) {
+        width: 100%;
+      }
 
       h3 {
         font-weight: 600;
@@ -276,6 +296,11 @@
         color: #181818;
         max-width: 18.75rem;
         margin: 0;
+
+        @media (max-width: 900px) {
+          max-width: none;
+          text-align: center;
+        }
 
         span {
           color: #009444;
@@ -288,6 +313,11 @@
       align-items: center;
       gap: 10%;
       width: 50%;
+
+      @media (max-width: 900px) {
+        width: 100%;
+        margin-top: 2rem;
+      }
 
       .summary-item {
         width: 45%;

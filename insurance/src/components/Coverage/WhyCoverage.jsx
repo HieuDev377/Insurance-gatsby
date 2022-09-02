@@ -40,36 +40,38 @@ const WhyCoverage = () => {
         </div>
         <div className="section-container">
           <div className="left-section">
-            <div class="our-aim">
-              <div class="yellow-quote">
+            <div className="our-aim">
+              <div className="yellow-quote">
                 <img src="http://tyndall.insure/wp-content/uploads/2022/08/quotes.svg" alt="" />
               </div>
               <p>We aim to answer any question within 24 hours</p>
-              <p class="ceo"><span>Leo Tyndall, &nbsp; </span>CEO</p>
+              <p className="ceo"><span>Leo Tyndall, &nbsp; </span>CEO</p>
             </div>
           </div>
           <div className="right-section">
             <h4>COVERAGE</h4>
             <h1>What our policy <span>covers?</span></h1>
             <p>It depends where you are located but our coverage protects you against significant commercial risk including:</p>
-            <ul>
-              <li>
-                <img src="http://tyndall.insure/wp-content/uploads/2022/08/right-icon.png" alt="" />
-                <span>Preferential Payment Risk</span>
-              </li>
-              <li>
-                <img src="http://tyndall.insure/wp-content/uploads/2022/08/right-icon.png" alt="" />
-                <span>Credit Default Risk</span>
-              </li>
-              <li>
-                <img src="http://tyndall.insure/wp-content/uploads/2022/08/right-icon.png" alt="" />
-                <span>Political Risk</span>
-              </li>
-              <li>
-                <img src="http://tyndall.insure/wp-content/uploads/2022/08/right-icon.png" alt="" />
-                <span>Contract Repudation Risk</span>
-              </li>
-            </ul>
+            <div className="policy-options">
+              <ul>
+                <li>
+                  <img src="http://tyndall.insure/wp-content/uploads/2022/08/right-icon.png" alt="" />
+                  <span>Preferential Payment Risk</span>
+                </li>
+                <li>
+                  <img src="http://tyndall.insure/wp-content/uploads/2022/08/right-icon.png" alt="" />
+                  <span>Credit Default Risk</span>
+                </li>
+                <li>
+                  <img src="http://tyndall.insure/wp-content/uploads/2022/08/right-icon.png" alt="" />
+                  <span>Political Risk</span>
+                </li>
+                <li>
+                  <img src="http://tyndall.insure/wp-content/uploads/2022/08/right-icon.png" alt="" />
+                  <span>Contract Repudation Risk</span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>

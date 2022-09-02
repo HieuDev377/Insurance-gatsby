@@ -27,35 +27,35 @@ const data = [
 const Testimonials = () => {
   return (
     <section className="testimonials">
-      <div class="testimonial-container move-left-to-right">
+      <div className="testimonial-container move-left-to-right">
         {data.map((testimonial) => (
-          <div class="testimonial-item" key={testimonial.id}>
-            <img src="https://www.brain.fm/images/brainfm-review-brian.png" class="testimonial-item-avatar" />
-            <div class="testimonial-item-ratings">
+          <div className="testimonial-item" key={testimonial.id}>
+            <img src="https://www.brain.fm/images/brainfm-review-brian.png" className="testimonial-item-avatar" />
+            <div className="testimonial-item-ratings">
               <img src="https://www.brain.fm/images/star.svg" alt="star" />
               <img src="https://www.brain.fm/images/star.svg" alt="star" />
               <img src="https://www.brain.fm/images/star.svg" alt="star" />
               <img src="https://www.brain.fm/images/star.svg" alt="star" />
               <img src="https://www.brain.fm/images/star.svg" alt="star" />
             </div>
-            <div class="testimonial-item-description">{testimonial.description}</div>
-            <div class="testimonial-item-owner">{testimonial.name}</div>
+            <div className="testimonial-item-description">{testimonial.description}</div>
+            <div className="testimonial-item-owner">{testimonial.name}</div>
           </div>
         ))}
       </div>
-      <div class="testimonial-container move-right-to-left">
+      <div className="testimonial-container move-right-to-left">
         {data.map((testimonial) => (
-          <div class="testimonial-item" key={testimonial.id}>
-            <img src="https://www.brain.fm/images/brainfm-review-brian.png" class="testimonial-item-avatar" />
-            <div class="testimonial-item-ratings">
+          <div className="testimonial-item" key={testimonial.id}>
+            <img src="https://www.brain.fm/images/brainfm-review-brian.png" className="testimonial-item-avatar" />
+            <div className="testimonial-item-ratings">
               <img src="https://www.brain.fm/images/star.svg" alt="star" />
               <img src="https://www.brain.fm/images/star.svg" alt="star" />
               <img src="https://www.brain.fm/images/star.svg" alt="star" />
               <img src="https://www.brain.fm/images/star.svg" alt="star" />
               <img src="https://www.brain.fm/images/star.svg" alt="star" />
             </div>
-            <div class="testimonial-item-description">{testimonial.description}</div>
-            <div class="testimonial-item-owner">{testimonial.name}</div>
+            <div className="testimonial-item-description">{testimonial.description}</div>
+            <div className="testimonial-item-owner">{testimonial.name}</div>
           </div>
         ))}
       </div>
